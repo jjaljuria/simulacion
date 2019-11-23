@@ -1,0 +1,34 @@
+.contenedor{
+	width: 500px;
+	margin: auto;
+}
+
+#canvas{
+	display: block;
+	margin: auto;
+	border: 1px solid;
+
+}
+
+.contenedorFechas{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contenedorFechas .fechas{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.controles{
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedorControles{
+	border:1px solid;
+	margin-top: 1rem;
+	text-align: center;
+}
